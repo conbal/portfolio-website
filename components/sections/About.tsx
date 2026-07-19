@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section id="about" className="scroll-mt-20 py-10 mx-auto max-w-5xl">
+    <section id="about" className="scroll-mt-20 pt-25 py-10 mx-auto max-w-5xl">
       <h2 className="text-center text-4xl pb-4 ">Connor Baldwin</h2>
       <div className="flex justify-center gap-7 max-w-5xl">
         <Image
@@ -10,7 +10,7 @@ export default function About() {
           width={200}
           height={200}
           alt="Picture of Connor Smiling Outside"
-          className="rounded-full border-3 shrink-0 border-blue-900 shadow-lg w-[200px] h-[200px] object-cover object-top"
+          className="rounded-full border-3 shrink-0 border-blue-900 shadow-lg w-50 h-50 object-cover object-top"
         />
         <p className="text-lg max-w-prose">
           Hey, I&apos;m Connor. I just finished my Software Engineering degree
