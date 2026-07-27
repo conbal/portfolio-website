@@ -10,10 +10,10 @@ export default function About() {
           width={200}
           height={200}
           alt="Picture of Connor Smiling Outside"
-          className="rounded-full border-3 shrink-0 border-blue-900 shadow-lg w-50 h-50 object-cover object-top"
+          className="rounded-full border-3 shrink-0 border-blue-900 shadow-xl w-50 h-50 object-cover object-top"
         />
         <p className="text-lg max-w-prose">
-          Hey, I&apos;m Connor. I just finished my Software Engineering degree
+          Hey! I&apos;m Connor. I just finished my Software Engineering degree
           at UT Arlington, a degree that took a bit longer than I initially
           expected, mostly because I spent the last 6 years also working at UPS
           and trying to take it easy. Anyway, I enjoy putting a system together
