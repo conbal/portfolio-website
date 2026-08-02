@@ -10,7 +10,7 @@ export default function About() {
           width={200}
           height={200}
           alt="Picture of Connor Smiling Outside"
-          className="rounded-full border-3 shrink-0 border-blue-900 shadow-xl w-50 h-50 object-cover object-top"
+          className="rounded-full shrink-0 shadow-2xl  w-50 h-50 object-cover object-top"
         />
         <p className="text-lg max-w-prose">
           Hey! I&apos;m Connor. I just finished my Software Engineering degree
