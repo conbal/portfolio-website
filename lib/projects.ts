@@ -14,18 +14,20 @@ export const projects: Project[] = [
     techStack: ["Flutter/Dart", "Firebase", "Flutter SDK", "Git"],
     screenshot: "/adhdcover.png",
     githubUrl: "https://github.com/conbal",
-    alt: "Login Screen of ADHD Food App",
+    alt: "Splash Screen of ADHD Food App",
   },
   {
     title: "test name1",
     desc: "test description",
     techStack: ["java", "python", "githubb"],
+    screenshot: "/placeholder.png",
     alt: "test alt",
   },
   {
     title: "test name2",
     desc: "test description",
     techStack: ["java", "python", "githubb"],
+    screenshot: "/placeholder.png",
     alt: "test alt",
   },
 ];
