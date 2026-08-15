@@ -15,7 +15,7 @@ import {
   SiVercel,
 } from "react-icons/si";
 import { FaJava, FaPython } from "react-icons/fa";
-import { TbSql } from "react-icons/tb";
+import { TbSql, TbApi } from "react-icons/tb";
 import { PiFileCpp } from "react-icons/pi";
 import { RiNextjsFill } from "react-icons/ri";
 
@@ -57,7 +57,7 @@ export const tools: SkillCategory = {
   title: "Tools & Platforms",
   skills: [
     { name: "Git", icon: SiGithub },
-    { name: "REST APIs" },
+    { name: "REST APIs", icon: TbApi },
     { name: "PostgreSQL", icon: SiPostgresql },
     { name: "Firestore", icon: SiFirebase },
     { name: "JUnit", icon: SiJunit5 },

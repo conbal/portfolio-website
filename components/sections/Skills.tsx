@@ -7,21 +7,21 @@ export default function Skills() {
       <h2 className="text-center text-4xl pb-4 ">Skills</h2>
       {/*languages section*/}
       <h3 className="text-center text-2xl">{langs.title}</h3>
-      <div>
+      <div className="flex justify-center gap-3 py-4">
         {langs.skills.map((skill) => (
           <SkillCard key={skill.name} {...skill} />
         ))}
       </div>
       {/*frameworks section*/}
       <h3 className="text-center text-2xl">{frameworks.title}</h3>
-      <div>
+      <div className="flex justify-center gap-3 py-4">
         {frameworks.skills.map((skill) => (
           <SkillCard key={skill.name} {...skill} />
         ))}
       </div>
       {/*tools section*/}
       <h3 className="text-center text-2xl">{tools.title}</h3>
-      <div>
+      <div className="flex justify-center gap-3 py-4">
         {tools.skills.map((skill) => (
           <SkillCard key={skill.name} {...skill} />
         ))}
