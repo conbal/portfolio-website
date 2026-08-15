@@ -3,6 +3,7 @@ import About from "@/components/sections/About";
 import Contact from "@/components/sections/Contact";
 import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
+import Background from "@/components/sections/Background";
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
         <About />
         <Projects />
         <Skills />
+        <Background />
         <Contact />
       </main>
     </>

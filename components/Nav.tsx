@@ -10,6 +10,9 @@ export default function Nav() {
       <a href="#skills" className="hover:text-sky-500">
         Skills
       </a>
+      <a href="#background" className="hover:text-sky-500">
+        Background
+      </a>
       <a href="#contact" className="hover:text-sky-500">
         Contact
       </a>
