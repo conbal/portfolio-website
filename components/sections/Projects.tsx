@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section id="projects" className="scroll-mt-23 pb-10">
       <h2 className="text-center text-4xl pb-4 ">Projects</h2>
-      <div className="grid grid-cols-3 justify-self-center gap-4">
+      <div className="flex justify-center gap-4 flex-wrap">
         {projects.map((project) => (
           <ProjectCard
             key={project.title}
