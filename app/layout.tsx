@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Connor Baldwin",
   description:
-    "Portfolio of Connor Baldwin, a full-stack software engineer based in Dallas-Fort Worth, showcasing skills and projects.",
+    "Portfolio of Connor Baldwin, a full stack software engineer based in Dallas-Fort Worth, showcasing skills and projects.",
 };
 
 export default function RootLayout({

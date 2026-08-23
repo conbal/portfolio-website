@@ -10,7 +10,7 @@ export default function ProjectCard({
   alt,
 }: Project) {
   return (
-    <div className="w-150 bg-blue-900 rounded-4xl shadow-2xl p-3">
+    <div className="w-150 bg-blue-900 rounded-4xl shadow-lg p-3">
       <h3 className="text-center text-xl">{title}</h3>
       <p className="text-center">{desc}</p>
       <div className="">
