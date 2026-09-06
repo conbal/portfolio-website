@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about" className="scroll-mt-20 pt-25 py-10 mx-auto max-w-5xl">
       <h2 className="text-center text-4xl pb-4 ">Connor Baldwin</h2>
-      <div className="flex justify-center gap-7 max-w-5xl">
+      <div className="flex justify-center gap-7 bg-blue-900 rounded-4xl shadow-lg py-7">
         <Image
           src="/connor.png"
           width={200}
